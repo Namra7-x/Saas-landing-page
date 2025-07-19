@@ -1,0 +1,301 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;  
+           
+}
+body{
+    background-color: #2B2B2B;
+}
+/* ===================================== */
+/* nav */
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+nav .logo{
+    font-weight: 600;
+    color: white;
+    font-size: 1.5rem;
+}
+nav .btns{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+nav .btns :nth-child(1){
+    text-decoration: none;
+    color: white;
+    font-size: 1.13rem;
+}
+
+nav .btns :nth-child(2){
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 0.94rem;
+    background-color: #BFAFF2;
+    padding: 1rem 3.38rem;
+}
+
+/* =================hero-=========================== */
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+    width: fit-content;
+    margin: auto;
+    gap: 3.5rem;
+    max-width: 100%;
+
+}
+.hero .content{
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero .img{
+    width: 500px;
+    justify-content: center;
+
+}
+.hero .content h1{
+    color: white;
+    font-size: 3.75rem;
+    line-height: 1.5;
+ 
+}
+.hero .content p{
+    color: grey;
+    font-size: 1.13rem; 
+    margin-top: 2rem; 
+    line-height: 1.5; 
+}
+
+.hero .content .btn-get{
+    margin-top: 5rem;
+}
+.hero .content a{
+    text-decoration: none;
+    color: black;
+    background-color: #F8D57E;
+    padding: 1rem 3.38rem;
+    border-radius: 15px;
+}
+
+
+.hero .img img{
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* =============company-logos=================== */
+
+
+/* =============product-section=================== */
+
+.product{
+    padding: 1rem;
+}
+.product .container{
+    background-color: #FDF5DF;
+    width: fit-content;
+    margin: 5rem auto;
+    border-radius: 20px;
+    max-width: 100%;
+    
+}
+
+.product .img{
+    display: flex;
+    justify-content: center;
+}
+
+.product .img img{
+    width: 100%;
+}
+
+
+/* =============features=================== */
+.features{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 0.8rem;
+    margin-bottom: 5rem;
+}
+
+.features .features-cards{
+    display: flex;
+    justify-content: center;
+    gap: 10rem
+}
+.features h1{
+    font-size: 1.13rem;
+    font: 700;
+    margin-top: 2rem;
+}
+.features p{
+    line-height: 2;
+    margin-top: 1rem;
+    color: grey;
+}
+/* =====review====== */
+.review {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem auto;
+    padding: 1rem;
+}
+.review .container{
+    background-color: #BFAFF2;
+    max-width: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    padding:5.5rem 10.53rem;
+    border-radius:20px ;
+}
+
+.review .content p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.review .rew{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.review .rew p{
+    color: grey;
+    font-size: 1.13rem;
+}
+
+/* =================question-=========================== */
+
+.question{
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+    width: fit-content;
+    margin: auto;
+    gap: 9.5rem;
+    max-width: 100%;
+
+}
+.question .content{
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.question .img{
+    width: 500px;
+    justify-content: center;
+
+}
+.question .content h1{
+    color: white;
+    font-size: 3.75rem;
+    line-height: 1.5;
+ 
+}
+.question .content p{
+    color: grey;
+    font-size: 1.13rem; 
+    margin-top: 2rem; 
+    line-height: 1.5; 
+}
+
+.question .content .btn-get{
+    margin-top: 5rem;
+}
+.question .content a{
+    text-decoration: none;
+    color: black;
+    background-color: #F8D57E;
+    padding: 1rem 3.38rem;
+    border-radius: 15px;
+}
+
+
+.question .img img{
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: contain;
+   
+}
+
+
+/* ======footer====== */
+
+footer{
+    margin-top: 5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+}
+
+footer .logo h1{
+      font-weight: 600;
+    color: white;
+    font-size: 1.5rem;
+}
+footer .footer-links .links{
+    display: flex;
+    gap: 1.2rem;
+}
+
+
+footer .footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.13rem;
+}
+
+footer input[type="button"]{
+     text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    background-color: #BFAFF2;
+    padding: 1rem 3.38rem;
+    border: none;
+    outline: none;
+}
+
+footer input[type="email"]
+{
+background-color: #333333;
+   color:white; 
+   border: none;
+   outline: none;
+   padding: 0.5rem 6.4rem 0.5rem 2rem;
+}
