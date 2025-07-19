@@ -143,7 +143,7 @@ We love contributions! Here's how you can help:
 
 📧 **Email:** patelnamra573@gmail.com
 💼 **Hire Me:** Available for freelance projects!
-**Made with ❤️ and ☕ by [Your Name](https://github.com/yourusername)**
+**Made with ❤️ and ☕ by [NAMRA](https://github.com/Namra7-x)**
 
 ⭐ Star • 🔄 Fork • 📢 Share • 🐛 Report • 💡 Suggest
 
