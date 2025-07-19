@@ -7,7 +7,8 @@
 
 > **A pixel-perfect, minimal SaaS landing page built with pure HTML & CSS. No frameworks, no dependencies - just clean, modern code.**
 
-• [🌐 Live Demo]([https://your-demo-url.vercel.app](https://namra7-x.github.io/Saas-landing-page/))  • [⭐ Star this repo](https://github.com/yourusername/saas-landing-page)
+[🌐 Live Demo](https://namra7-x.github.io/Saas-landing-page/) • [⭐ Star this repo](https://github.com/yourusername/saas-landing-page)
+
 
 
 
